@@ -3,7 +3,7 @@
 pushd ~
 rm -rf .config .fastai .jupyter .local .ssh .bash_history
 
-mkdir /storage/cfg
+mkdir -p /storage/cfg
 
 for p in .local .ssh .config .ipython .fastai .jupyter .conda .kaggle
 do
