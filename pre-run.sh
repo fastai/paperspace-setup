@@ -13,6 +13,8 @@ do
 	ln -s /storage/cfg/$p ~/
 done
 
+chmod 700 /storage/cfg/.ssh
+
 for p in .local .git-credentials .gitconfig .bash_history
 do
 	if [ ! -e /storage/cfg/$p ]; then
