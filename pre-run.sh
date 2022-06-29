@@ -23,8 +23,3 @@ do
 	ln -s /storage/cfg/$p ~/
 done
 
-export PATH=~/.local/bin:~/.conda/bin/:$PATH
-export MAMBA_ROOT_PREFIX=~/.conda
-alias mamba='~/.conda/bin/micromamba -p .conda -c conda-forge '
-alias pipi='pip install --user '
-
