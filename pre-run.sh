@@ -3,6 +3,8 @@
 pushd ~
 rm -rf .config .fastai .jupyter .local .ssh .bash_history
 
+mkdir /storage/cfg
+
 for p in .local .ssh .config .ipython .fastai .jupyter .conda .kaggle
 do
 	if [ ! -e /storage/cfg/$p ]; then
