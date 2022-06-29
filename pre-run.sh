@@ -22,4 +22,4 @@ do
 	fi
 	ln -s /storage/cfg/$p ~/
 done
-
+popd
