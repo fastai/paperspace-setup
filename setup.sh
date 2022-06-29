@@ -1,4 +1,4 @@
-#!/usr/local/env bash
+#!/usr/bin/env bash
 
 mkdir /storage/cfg
 cp -r .conda /storage/cfg/
