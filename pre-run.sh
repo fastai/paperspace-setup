@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pushd ~
-rm -rf .config .fastai .jupyter .local .ssh .bash_history
+rm -rf .config .fastai .jupyter .local .ssh .bash_history .conda
 
 mkdir -p /storage/cfg
 
