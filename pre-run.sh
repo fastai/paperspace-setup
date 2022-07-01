@@ -15,7 +15,7 @@ done
 
 chmod 700 /storage/cfg/.ssh
 
-for p in .local .git-credentials .gitconfig .bash_history
+for p in .git-credentials .gitconfig .bash_history
 do
 	if [ ! -e /storage/cfg/$p ]; then
 		touch /storage/cfg/$p
