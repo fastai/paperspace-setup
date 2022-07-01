@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-alias mambai='~/.conda/bin/micromamba install -p ~/.conda -c conda-forge '
+alias mambai='mamba install -p ~/.conda '
 alias pipi='pip install --user '
 
 export PATH=~/.local/bin:~/.conda/bin/:$PATH
-export MAMBA_ROOT_PREFIX=~/.conda
-
