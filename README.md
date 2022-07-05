@@ -3,6 +3,7 @@
 Setup a paperspace instance for fastai. Steps:
 
 - Open a terminal on your machine
+- `cd /storage`
 - `git clone https://github.com/fastai/paperspace-setup.git`
 - `cd paperspace-setup`
 - `./setup.sh`
